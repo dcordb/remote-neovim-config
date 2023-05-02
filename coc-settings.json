@@ -1,0 +1,28 @@
+{
+  "inlayHint.enable": false,
+  "snippets.snipmate.enable": false, // disable snipmate snippets
+
+  // disable formatting from LSP and use prettier
+  "typescript.format.enabled": false,
+  "javascript.format.enabled": false,
+  "json.format.enable": false,
+
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "Lua.telemetry.enable": false,
+  "Lua.workspace.library": [
+    "/usr/share/nvim/runtime/lua",
+    "/usr/share/nvim/runtime/lua/vim",
+    "/usr/share/nvim/runtime/lua/vim/lsp"
+  ],
+  "Lua.diagnostics.globals": ["vim"],
+  "Lua.format.defaultConfig": {
+    "indent_style": "space",
+    "indent_size": "2",
+    "quote_style": "double"
+  },
+  "Lua.completion.autoRequire": false,
+  "python.formatting.provider": "blackd",
+  "python.venvPath": "~/.pyenv/versions",
+  "texlab.latexindent.modifyLineBreaks": true,
+  "languageserver": {}
+}

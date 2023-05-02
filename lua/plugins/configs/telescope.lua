@@ -1,0 +1,7 @@
+kset("n", "<Leader>ff", "<Cmd>Telescope find_files<CR>")
+kset("n", "<Leader>fa", "<Cmd>Telescope find_files hidden=true<CR>")
+kset("n", "<Leader>fb", "<Cmd>Telescope buffers<CR>")
+kset("n", "<Leader>fh", "<Cmd>Telescope help_tags<CR>")
+kset("n", "<Leader>fk", "<Cmd>Telescope keymaps<CR>")
+kset("n", "<Leader>ft", "<Cmd>Telescope filetypes<CR>")
+kset("n", "<Leader>fg", "<Cmd>Telescope live_grep<CR>")
